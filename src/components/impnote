@@ -1,0 +1,63 @@
+React is a open source javascript library for building user interfaces
+
+
+React is a javascript library
+React is not a framework
+React focus on building User Interface
+
+npx create-react-app <project_name>
+ex: npx create-react-app my-code
+npx - npm package runner
+
+npm :-
+npm install create-react-app -g
+create-react-app <project_name>
+
+
+Components:
+They are reusable and nested inside other Components
+2 types
+Stateless Functional,Stateful Class
+
+functional :
+Absence of 'this' keyword
+Stateless/dumb/presentational
+
+class :
+stateful/smart/container
+
+
+React v16.7.0-alpha : Hooks are a new feature that use state withou using class components
+
+Hooks:
+No breaking changes
+functional components,class components
+
+JSX :- Javascript XML (JSX)
+JSX have a tag name,attributes and children
+JSX makes your react code simpler
+JSX differences:
+class =>className
+for =>htmlFor
+onclick => onClick
+tabindex => tabIndex
+
+props : properties
+props get passed to the component
+props are immutable
+props-functional
+this.props-class
+
+state :
+state is managed within the component
+variables declared in the function body
+state can be changed
+useState Hook -functional
+this.state -class
+
+
+Conditional Rendering
+if/else
+2. element variables
+3. ternary conditional operator
+4. short circuit operator
